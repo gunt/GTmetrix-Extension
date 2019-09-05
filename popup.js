@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
         var f = d.createElement('form');
         f.action = 'http://gtmetrix.com/analyze.html?bm';
-        f.method = 'post';
+        f.method = 'get';
         var i = d.createElement('input');
         i.type = 'hidden';
         i.name = 'url';
